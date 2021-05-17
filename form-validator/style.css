@@ -64,8 +64,35 @@ input:invalid {
 
 button {
   cursor: pointer;
-  padding: 25px;
   color: white;
   background-color: black;
+  border: none; 
   border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  font-family: 'Manjari', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+button:hover {
+  filter: brightness(150%);
+  background: rgb(14, 13, 13);
+
+}
+
+button:focus {
+  outline: none;
+  
+}
+
+.message-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 75%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: black;
 }
