@@ -18,7 +18,7 @@ body {
 
 .container {
   width: 480px;
-  height: 630px;
+  height: 670px;
   background: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -85,6 +85,10 @@ button:hover {
 button:focus {
   outline: none;
   
+}
+
+#message {
+  text-align: center;
 }
 
 .message-container {
